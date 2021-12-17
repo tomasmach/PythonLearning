@@ -1,5 +1,5 @@
-phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
-
-for i in phone_numbers:
-    if isinstance(i, int):
-        print(i.replace("+", "00"))
+with open("text.txt", "a+" ) as file:
+    file.seek(0)
+    content = file.read()
+    file.write(content)
+    file.write(content)
