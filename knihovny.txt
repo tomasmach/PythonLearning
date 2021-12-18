@@ -4,3 +4,4 @@ pip3.10 install jupyter
 
 pip3.10 install openpyxl
 pip3.10 install xlrd
+pip3.10 install geopy
