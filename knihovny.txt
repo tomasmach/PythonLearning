@@ -5,3 +5,12 @@ pip3.10 install jupyter
 pip3.10 install openpyxl
 pip3.10 install xlrd
 pip3.10 install geopy
+py -3.10 -m pip install opencv-python
+pip3.10 install folium
+stáhnout atom
+    Open file>settings
+    Click "+" (install)
+    Search for a terminal package called "platformio-ide-terminal"
+    Click "install".
+    Press Crtl+` to toggle the terminal
+python 3.10 from microsoft store
