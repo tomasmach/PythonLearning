@@ -1,0 +1,6 @@
+pip3.10 install pandas
+pip3.10 install ipython
+pip3.10 install jupyter
+
+pip3.10 install openpyxl
+pip3.10 install xlrd

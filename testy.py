@@ -1,5 +1,12 @@
-with open("text.txt", "a+" ) as file:
-    file.seek(0)
-    content = file.read()
-    file.write(content)
-    file.write(content)
+import time
+import os
+import pandas
+
+while True:
+    if os.path.exists("files/vegetables.txt"):
+        with open("files/vegetables.txt") as file:
+            print(file.read())
+    else:
+        print("Soubor neexistuje")
+
+    time.sleep(10)
