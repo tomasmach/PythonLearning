@@ -3,6 +3,10 @@ import time
 #import random
 
 with open('stats.csv', 'r') as f:
-    pass
-    print(f.closed)
+    f_contents = f.read()
+    print(f_contents, end='')
+
+#    for line in f:
+#        print(line, end='')
+
 
